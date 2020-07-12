@@ -27,7 +27,7 @@ h1 {
   position: relative;
   margin: auto;
   height: 350px;
-  width: 450px;
+  width: 200px;
 }
 
 .title {
@@ -49,7 +49,6 @@ h1 {
   margin-top: 0;
   color: yellowgreen;
   text-transform: uppercase;
-  filter: url(#goo);
   position: relative;
   font-family: MK4;
   font-weight: 900;
@@ -119,7 +118,7 @@ h1 {
 .wrong-letters-container {
   position: absolute;
   top: 20px;
-  right: 20px;
+  left: 320px;
   display: flex;
   flex-direction: column;
   text-align: right;
@@ -130,7 +129,7 @@ h1 {
 }
 
 .wrong-letters-container span {
-  font-size: 24px;
+  font-size: 44px;
 }
 
 .word {
@@ -140,6 +139,8 @@ h1 {
   left: 50%;
   transform: translateX(-50%);
   color: indianred;
+  font-family: MK4;
+  font-weight: 900;
 }
 
 .letter {
@@ -206,5 +207,5 @@ h1 {
 }
 
 .notification-container.show {
-  transform: translateY(-150px);
+  transform: translateY(-50px);
 }
